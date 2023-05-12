@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <H1> verificador de idade</H1>
+    </header>
+<section>
+    <div>
+        <p>ano de nascimento:
+            <input type="number" name="txt" id="txtano" min="0">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="sex" id="masc" checked>
+            <label for="masc">masculino</label>
+            <input type="radio" name="sex" id="fem">
+            <label for="fem">femenino</label>
+
+        </p>
+        <p>
+            <input type="button" value="enviar" onclick="enviar()">
+        </p>
+    </div>
+    <div id="res">
+            preencha os dados
+    </div>
+
+</section>
+    <footer>
+        <p>&copy;lucasdonha</p>
+    </footer>
+    <script src="script.js"></script>  
+</body>
+</html>
